@@ -6,6 +6,7 @@ html{
     display: flex;
     justify-content: space-between;
     font-size: x-large;
+    margin-bottom: 30px;
 }
 
 .navigationButtons{
@@ -29,4 +30,42 @@ html{
 .navigationButtons>button:active{
     background-color: rgba(255, 0, 0, 0.521);
     transition-duration: 0.3s;
+}
+
+.Introduction{
+    text-align: center;
+    padding: 20px;
+}
+
+.Introduction>button{
+    border: 1px solid black;
+    font-weight: bolder;
+    color: aliceblue;
+    background-color: black;
+    height: 40px;
+    width: 200px;
+}
+
+.Introduction>button:hover{
+    cursor: pointer;
+}
+
+.Introduction>button:active{
+    background-color: rgba(0, 0, 0, 0.616);
+    transition-duration: 0.3s;
+}
+
+.Myworks{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    border: 1px solid black;
+    width: fit-content;
+    height: fit-content;
+}
+
+.grid{
+    border-right: 1px solid black;
+    border-bottom: 1px solid black;
+    height: 394px;
+    width: 394px;
 }
